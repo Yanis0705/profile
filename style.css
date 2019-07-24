@@ -18,7 +18,7 @@ h1 {
 
 h2 {
   font-size: 26px;
-  color: #9c88ff;
+  color: #48484d;
 }
 
 img {
@@ -28,42 +28,52 @@ img {
 
 .btn-black {
   padding: 0 18px;
-  background-color: #484848;
-  border-color: rgba(0,0,0,.84);
-  color: white;
-  border: 1px solid rgba(0,0,0,.15);
+  background-color: white;
+  border-color: #48484d;
+  color: #48484d;
+  border: 1px solid #48484d;
   border-radius: 4px;
   text-decoration: none;
   font-size: 17px;
   line-height: 37px;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .btn-black:hover {
-  background-color: #9c88ff;
+  background-color: #48484d;
+  color: white;
 }
 
-.icon-link {
+.icon-link-blue {
   font-size: 35px;
-  color: rgb(72, 72, 72);
+  color: #3b5998;
 }
 
-.icon-link:hover {
+.icon-link-blue:hover {
   font-size: 35px;
-  color: #9c88ff;
+  color: #48484d;
+}
+
+.icon-link-black {
+  font-size: 35px;
+  color: black;
+}
+
+.icon-link-black:hover {
+  font-size: 35px;
+  color: #48484d;
 }
 
 .container {
   text-align: center;
 }
 
-.card-white-box-shadow {
-  margin: 30px 200px 30px 200px;
+.card-white-box-shadow-border-solid-black {
+  margin: 20px 200px 20px 200px;
   background: white;
-  padding: 20px;
-  border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.2);
-  border-radius: 5px;
+  padding: 5px 50px 5px 50px;
+  border-radius: 10px;
+  box-shadow: 0 10px 5px rgba(0,0,0,.2);
 }
 
 .list-inline > li {
