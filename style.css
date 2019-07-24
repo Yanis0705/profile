@@ -1,0 +1,96 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+
+body {
+  background-color: #f5f6fa;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #484848;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  color: rgb(72, 72, 72);
+  font-size: 32px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 26px;
+  color: #9c88ff;
+}
+
+img {
+  width: 80px;
+  border-radius: 50px;
+}
+
+.btn-black {
+  padding: 0 18px;
+  background-color: #484848;
+  border-color: rgba(0,0,0,.84);
+  color: white;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 37px;
+  font-weight: bold;
+}
+
+.btn-black:hover {
+  background-color: #9c88ff;
+}
+
+.icon-link {
+  font-size: 35px;
+  color: rgb(72, 72, 72);
+}
+
+.icon-link:hover {
+  font-size: 35px;
+  color: #9c88ff;
+}
+
+.container {
+  text-align: center;
+}
+
+.card-white-box-shadow {
+  margin: 30px 200px 30px 200px;
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  border-radius: 5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
